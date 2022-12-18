@@ -21,9 +21,9 @@ Date will inserted in auth_user table.
 
 http://localhost:8082/oauth/token
 params:
-grant_type - password
-username - suresh
-password - suresh@123
+grant_type - password 
+username - suresh 
+password - suresh@123 
 
 Authorization:
 Basic Auth
