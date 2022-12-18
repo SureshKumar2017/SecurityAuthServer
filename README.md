@@ -21,9 +21,9 @@ Date will inserted in auth_user table.
 
 http://localhost:8082/oauth/token
 params:
-grant_type - password 
-username - suresh 
-password - suresh@123 
+grant_type- password 
+username- suresh 
+password- suresh@123 
 
 Authorization:
 Basic Auth
@@ -44,7 +44,7 @@ Response:
 
 http://localhost:8082/oauth/check_token
 param:
-token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEzNjA4MTAsInVzZXJfbmFtZSI6InN1cmVzaCIsImp0aSI6ImZiMjk4NWNhLWQ4OGUtNDFmZS1hM2UyLThiMjI1NjMzMzllYiIsImNsaWVudF9pZCI6InRlc3QiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.9DwQcAMPraJOsEJz9TyF9uSs9AqKTlqmIUFHxxGsbtE
+token -     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEzNjA4MTAsInVzZXJfbmFtZSI6InN1cmVzaCIsImp0aSI6ImZiMjk4NWNhLWQ4OGUtNDFmZS1hM2UyLThiMjI1NjMzMzllYiIsImNsaWVudF9pZCI6InRlc3QiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.9DwQcAMPraJOsEJz9TyF9uSs9AqKTlqmIUFHxxGsbtE
 Authorization:
 Basic Auth
  Username : test
@@ -69,7 +69,7 @@ http://localhost:8082/oauth/token
 
 param:
 grant_type - refresh_token
-refresh_token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEyOTY3NjIsInVzZXJfbmFtZSI6ImhhcmkiLCJqdGkiOiIxOTc2ZDk3Yy1lMWVhLTRhMmItYTgyOC03ZjIwMTMxYmVhZGYiLCJjbGllbnRfaWQiOiJ0ZXN0Iiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sImF0aSI6IjljYTljMDY1LWQ4ZDAtNDZlOC1iODQzLTVhMjVmYjAwYzJmZiJ9.ItRUS6U9zdPB5v-c2LqoNI3QaTCM3NDLb4R01yiojnM
+refresh_token-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEyOTY3NjIsInVzZXJfbmFtZSI6ImhhcmkiLCJqdGkiOiIxOTc2ZDk3Yy1lMWVhLTRhMmItYTgyOC03ZjIwMTMxYmVhZGYiLCJjbGllbnRfaWQiOiJ0ZXN0Iiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sImF0aSI6IjljYTljMDY1LWQ4ZDAtNDZlOC1iODQzLTVhMjVmYjAwYzJmZiJ9.ItRUS6U9zdPB5v-c2LqoNI3QaTCM3NDLb4R01yiojnM
 Authorization:
 Basic Auth
  Username : test
